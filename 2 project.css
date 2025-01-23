@@ -1,0 +1,66 @@
+#nav{
+    display: inline-flex;
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+#name{
+    position: fixed;
+    left: 30px;
+    top: 10px;
+}
+
+#prj{
+    position: fixed;
+    left: 30px;
+    top: 40%;
+}
+
+#edu{
+    position: fixed;
+    right: 40px;
+    top: 40%;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav>li{
+    margin-right: 20px;
+}
+
+footer{
+    font-size: large;
+    position: fixed;
+    left: 45%;
+    bottom: 30px;
+}
+
+footer, header, #prj>h3, #edu>h3, #workexp>h3{
+    font-family: "Caveat", sans-serif;
+}
+
+header{
+    position: fixed;
+    right: 40%;
+    top: 20%;
+    font-size: 30px ;
+}
+
+#prj>h3, #edu>h3, #workexp>h3{
+    display: inline-flex;
+    font-size: 25px;
+}
+
+#workexp{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+a{
+    text-decoration-line: none;
+}
+
