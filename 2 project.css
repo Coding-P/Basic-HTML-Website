@@ -1,66 +1,65 @@
-#nav{
-    display: inline-flex;
-    position: fixed;
-    right: 30px;
-    top: 10px;
+header{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid black;
+    font-family: "Caveat", sans-serif;
+    font-size: large;
 }
 
 #name{
-    position: fixed;
-    left: 30px;
-    top: 10px;
-}
-
-#prj{
-    position: fixed;
-    left: 30px;
-    top: 40%;
-}
-
-#edu{
-    position: fixed;
-    right: 40px;
-    top: 40%;
-}
-
-ul{
-    list-style: none;
-}
-
-#nav>li{
-    margin-right: 20px;
-}
-
-footer{
-    font-size: large;
-    position: fixed;
-    left: 45%;
-    bottom: 30px;
-}
-
-footer, header, #prj>h3, #edu>h3, #workexp>h3{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    width: fit-content;
     font-family: "Caveat", sans-serif;
 }
 
-header{
-    position: fixed;
-    right: 40%;
-    top: 20%;
-    font-size: 30px ;
+#nav{
+    display: inline-flex;
+    justify-content: flex-end;
+    width: fit-content;
 }
 
-#prj>h3, #edu>h3, #workexp>h3{
-    display: inline-flex;
-    font-size: 25px;
+ul>li{
+    list-style-type: none;
+    margin-left: 20px;  
+}
+
+#prj>h3{
+    display: flex;
+    justify-content: left;
+}
+
+#prj{
+    border: 2px solid black ;
+    width: fit-content;
+    height: fit-content;   
 }
 
 #workexp{
-    position: fixed;
-    top: 40%;
-    left: 40%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
 }
 
-a{
-    text-decoration-line: none;
+#edu{
+    width: fit-content;
+    height: fit-content;  
+    border: 2px solid black;
+    margin: auto;
 }
 
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: "Caveat", sans-serif;
+    font-size: large;
+}
