@@ -3,6 +3,10 @@
     justify-content: right;
 }
 
+#nav>li{
+    margin-left: 20px;
+}
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -10,14 +14,13 @@
 
 ul>li{
     list-style: none;
-    margin-left: 20px;
 }
 
 header{
     display: flex;
     justify-content: center; 
     font-family: "Caveat", sans-serif;
-    font-size: large;
+    font-size: 35px;
 }
 
 .middle{
@@ -33,6 +36,7 @@ header{
 
 #edu{
     justify-items: center;
+    padding-right: 5%;
 }
 
 #rw{
@@ -66,4 +70,33 @@ footer{
     position: fixed;
     bottom: 20px;
     left: 45%;
+}
+
+#prj>ul, #edu>ul{
+    list-style-position: inside;
+    padding: 0;
+}
+
+#prj, #workexp, #edu, #OpSrc{
+    text-align: center;
+}
+
+#prj{
+    padding-left: 5%;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#prj>h3, #workexp>h3, #edu>h3{
+    font-family: "Caveat", sans-serif;
+    font-size: 30px;
+}
+
+.dsc{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
 }
