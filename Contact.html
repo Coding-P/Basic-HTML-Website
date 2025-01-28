@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Contact.css">    
+    <link rel="stylesheet" href="Contact page.css">    
     <title>Form</title>
 </head>
 <body>
     <fieldset>
     <legend>Contact</legend>
-        <form action="">
+        <form action="Main page.html">
         <label for="name">Name: </label>
         <input type="text" placeholder = "Your name" required>
 
@@ -25,12 +25,12 @@
         
         <br>
 
-        <label for="Phone">Number: </label>
-        <input type="tel" placeholder="123-456-7890" required>
+        <label for="Phone">Phone number: </label>
+        <input type="tel" placeholder="123-456-7890" maxlength="10" required>
 
         <br>
 
-        <input type="submit" required>
+        <input type="submit" onclick="alert('Thank you for your time')" required>
     </form>
 </fieldset>
 </body>
