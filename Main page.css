@@ -1,111 +1,110 @@
-#nav{
-    display: flex;
-    justify-content: right;
-}
-
-#nav>li{
-    margin-left: 10%;
-}
-
-.top{
-    display: flex;
-    justify-content: space-between;
-}
-
-ul>li{
-    list-style-type: none;
-}
-
-header{
-    display: flex;
-    justify-content: center; 
-    font-family: "Caveat", sans-serif;
-    font-size: 2em;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 2%;
-    left: 45%;
-}
-
-
-
-.middle{
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px solid black;
-}
-
-#workexp, #OpSrc{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
-
-#edu{
-    justify-items: center;  
-}
-
-
-.exp{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-a{
-    font-style: italic;
-    text-decoration-line: none;
-    color: black;
-}
-
-#OpSrc{
-    border-top: 2px solid black;
-}
-
-#prj, #workexp, #edu, #OpSrc{
-    text-align: center;
-}
-
-
-
-.titles{
-    font-family: "Caveat", sans-serif;
-    font-size: 2em;
-}
-
-.dsc{
-    font-family: monospace;
-    font-size: 1.5em;
-    font-weight: normal;
-    list-style-position: inside;
-    padding: 0;
-}
-
-.dscSp{
-    font-family: monospace;
-    font-weight: normal;
-    font-size: 0.8em;
-    padding: 0;
-}
-
-
-
-
-#rw{
-    flex-direction: column;
-}
-
-#rw>p{
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 10px;
-    width: fit-content;
-    line-height: 1em;
-}
-
-.comment{
-    color: rgba(128, 128, 128, 0.534);
-}
+    body{
+        width: 100%;
+        height: 100%;
+    }
+   #nav{
+        display: flex;
+        justify-content: right;
+    }
+    
+    #nav>li{
+        margin-left: 10%;
+    }
+    
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul>li{
+        list-style-type: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content: center; 
+        font-family: "Caveat", sans-serif;
+        font-size: 2em;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        position: static;
+        bottom: 2%;
+        left: 50%;
+    }
+    
+    
+    
+    .middle{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+      
+    #edu{
+        justify-items: center;  
+    }
+    
+    
+    .exp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    a{
+        font-style: italic;
+        text-decoration-line: none;
+        color: black;
+    }
+    
+    #OpSrc{
+        border-top: 2px solid black;
+    }
+    
+    #prj, #workexp, #edu, #OpSrc{
+        text-align: center;
+    }
+    
+    
+    
+    .titles{
+        font-family: "Caveat", sans-serif;
+        font-size: 2em;
+    }
+    
+    .dsc{
+        font-family: monospace;
+        font-size: 1.5em;
+        font-weight: normal;
+        list-style-position: inside;
+        padding: 0;
+    }
+    
+    .dscSp{
+        font-family: monospace;
+        font-weight: normal;
+        font-size: 0.8em;
+        padding: 0;
+    }
+    
+    
+    
+    
+    #rw{
+        flex-direction: column;
+    }
+    
+    #rw>p{
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        width: fit-content;
+        line-height: 1em;
+    }
+    
+    .comment{
+        color: rgba(128, 128, 128, 0.534);
+    }
